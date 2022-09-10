@@ -1,0 +1,46 @@
+.myron-slider {
+}
+
+.myron-slider-thumb {
+  position: relative;
+
+  margin: 0 auto;
+
+  max-width: 300px;
+}
+
+.myron-slider-img {
+  display: block;
+}
+
+.myron-slider-txt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 101%;
+
+  transform: translateY(100%);
+
+  color: #fff;
+
+  background-color: rgba(109, 178, 222, 0.7);
+  backdrop-filter: blur(4px);
+  transition: transform 250ms ease;
+}
+
+.myron-slider-thumb:hover .myron-slider-txt {
+  transform: translateY(-10%);
+}
+
+.myron-slider .slick-prev::after,
+.myron-slider .slick-next::after {
+  content: "<";
+}
+
+.myron-slider .slick-next::after {
+  content: ">";
+  display: block;
+  width: 10px;
+  height: 10px;
+}
