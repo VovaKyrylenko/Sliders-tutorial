@@ -1,0 +1,28 @@
+div>.img {
+    margin: 0;
+    max-width: 300px;
+    height: 300px;
+}
+
+.img {
+    display: block;
+}
+
+.slider {
+    width: calc((300px * 3) + (30px * 2));
+    margin: auto;
+}
+
+.slick-prev:before,
+.slick-next::before {
+color: rgb(255, 81, 0);
+}
+
+.slick-dots li button::before {
+    color: rgb(255, 81, 0);
+}
+
+.slick-dots li.slick-active button:before {
+    color: rgb(255, 81, 0);
+}
+
