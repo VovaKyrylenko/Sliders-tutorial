@@ -1,0 +1,14 @@
+.slider-wrap {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 40px;
+  line-height: 1;
+  opacity: 0.75;
+  color: rgb(58, 33, 33);
+}
