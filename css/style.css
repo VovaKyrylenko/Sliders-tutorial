@@ -1,0 +1,25 @@
+img {
+  display: block;
+}
+.slider {
+  display: flex;
+  gap: 15px;
+
+  width: calc((400px * 3) + (15px * 2));
+  margin: auto;
+}
+.slider-wrapper:not(:last-child) {
+  margin-right: 15px;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-family: "slick";
+  font-size: 30px;
+  line-height: 1;
+  opacity: 0.75;
+  color: black;
+}
+.slick-prev {
+  left: -32px;
+}
