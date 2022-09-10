@@ -1,0 +1,15 @@
+.slick-prev:before,
+.slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: tomato;}
+
+    .slider {
+        width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        gap: 20px;
+    }
