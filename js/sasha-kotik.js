@@ -1,7 +1,6 @@
-$('.autoplay').slick({
+$(".autoplay").slick({
   slidesToShow: 3,
   slidesToScroll: 1,
-    autoplay: true,
-    dots: true,
+  autoplay: false,
   autoplaySpeed: 2000,
 });
